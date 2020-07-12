@@ -1,0 +1,46 @@
+{
+	"name": "FrontEnd_webpack",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"watch": {
+		"build": {
+			"patterns": [
+				"src"
+			],
+			"extensions": "ts,js,json,css,html,jsx,xml",
+			"quiet": false,
+			"runOnChangeOnly": true
+		}
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"watch": "npm-watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.10.4",
+		"@babel/core": "^7.10.4",
+		"@babel/preset-env": "^7.10.4",
+		"@babel/preset-react": "^7.10.4",
+		"babel-loader": "^8.1.0",
+		"css-loader": "^3.6.0",
+		"file-loader": "^6.0.0",
+		"npm-watch": "^0.6.0",
+		"style-loader": "^1.2.1",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12"
+	},
+	"dependencies": {
+		"@date-io/date-fns": "^2.6.2",
+		"@material-ui/core": "^4.11.0",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/pickers": "^3.2.10",
+		"date-fns": "^2.14.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}
